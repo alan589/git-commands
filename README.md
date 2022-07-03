@@ -23,8 +23,7 @@ criar um repo remoto pelo github adiciona readme e gitignore e fazer um pull do 
 - git config --global user.email "user@domain.com" - configura email <br>
 - git config --global user.editor vscode - configura o editor de texto <br>
 - git config --global user.user "Alan589" - configura o nome de usuario<br>
-- git config --global --unset user.name/user.email/etc
-- <br><br><br><br>
+- git config --global --unset user.name/user.email/etc <br><br><br><br>
 
 
 - git config user.name - mostra o usuário cadastrado <br>
@@ -45,7 +44,7 @@ criar um repo remoto pelo github adiciona readme e gitignore e fazer um pull do 
 - git remote add [nome da repo remoto] ssh - adiciona um repositório remoto ao repositório local <br>
 nota: [nome da repo remoto] - nomeia o repo remoto 
 - git push -u [nome do repo remoto] [nome da branch] - envia o repositório local para o remoto (-u grava push padrão) <br>
-[nome da branch remota] é o nome que você deu ao nomear o repo pelo git remote add, [nome da repo]  é a branch que você quer enviar os arquivos ex: se quiser enviar pra branch principal da repo remota coloque 'master' senão coloque o nome da branch que quiser
+[nome da branch remota] é o nome que você deu ao nomear o repo pelo git remote add, [nome da branch]  é a branch que você quer enviar os arquivos ex: se quiser enviar pra branch principal da repo remota coloque 'main' ou coloque o nome da branch que quiser 
 - git remote / git remote -v - lista o repositorio remoto
 - git pull https - 'puxa' o repo remoto para o local 
 - git pull [remote repo] [local repo branch] - puxa a repo remoto para atualizar com a repo local
